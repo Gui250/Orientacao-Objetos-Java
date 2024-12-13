@@ -7,7 +7,10 @@ public class Main {
         System.out.println(gol.getLigado());
         gol.acelerar("forte");
         gol.acelerar("fraco");
-
+        System.out.println(gol.getCor());
+        gol.setCor("Azul");
         System.out.println(gol.getAceleracao());
+        System.out.println(gol.getCor());
+        System.out.println(gol.getIdade());
     }
 }

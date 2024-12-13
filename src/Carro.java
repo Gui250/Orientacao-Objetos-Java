@@ -5,7 +5,7 @@ public class Carro {
    private String cor;
    private boolean ligado;
    private int aceleracao;
-
+   private int idade;
    public Carro(String modelo, String marca, int ano, String cor) {
       this.modelo = modelo;
       this.marca = marca;
@@ -13,6 +13,7 @@ public class Carro {
       this.cor = cor;
       this.ligado = false;
       this.aceleracao = 0;
+      this.setIdade();
    }
 
    public void ligar() {
@@ -72,5 +73,13 @@ public class Carro {
 
     public void setCor(String cor) {
          this.cor = cor;
+    }
+
+    private void setIdade() {
+         this.idade = 2024 - this.ano;
+    }
+
+    public int getIdade() {
+         return idade;
     }
 }
