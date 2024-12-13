@@ -1,10 +1,10 @@
 public class Carro {
-   public int ano;
-   public String modelo;
-   public String marca;
-   public String cor;
-   public boolean ligado;
-   public int aceleracao;
+   private int ano;
+   private String modelo;
+   private String marca;
+   private String cor;
+   private boolean ligado;
+   private int aceleracao;
 
    public Carro(String modelo, String marca, int ano, String cor) {
       this.modelo = modelo;
@@ -46,4 +46,31 @@ public class Carro {
          this.aceleracao += 750;
    }
 
+    public String getModelo() {
+        return modelo;
+    }
+
+    public String getMarca() {
+         return marca;
+    }
+
+    public String getCor() {
+         return cor;
+    }
+
+    public int getAno() {
+         return ano;
+    }
+
+    public boolean getLigado() {
+         return ligado;
+    }
+
+    public int getAceleracao() {
+         return aceleracao;
+    }
+
+    public void setCor(String cor) {
+         this.cor = cor;
+    }
 }
