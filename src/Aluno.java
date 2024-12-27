@@ -9,4 +9,8 @@ public class Aluno extends Pessoa {
         int pontos = minutos * 2;
         this.setPontos(pontos);
     }
+
+    public String imprimirSaudacao() {
+        return "Aluno(a): " + this.getNome();
+    }
 }

@@ -20,5 +20,7 @@ public class Main {
        joao.calcularPontos(30);
        System.out.println(boby.getPontos());
        System.out.println(joao.getPontos());
+       System.out.println(boby.imprimirSaudacao());
+       System.out.println(joao.imprimirSaudacao());
     }
 }
