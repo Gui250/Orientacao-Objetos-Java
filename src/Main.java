@@ -15,6 +15,10 @@ public class Main {
 
        Aluno boby = new Aluno("Boby", "12345678900");
        Professor joao = new Professor("João", "23451678910", 100000);
-       Pessoa maria = new Pessoa("Maria", "912345678910");
+       boby.calcularPontos(10);
+       boby.calcularPontos(15);
+       joao.calcularPontos(30);
+       System.out.println(boby.getPontos());
+       System.out.println(joao.getPontos());
     }
 }
