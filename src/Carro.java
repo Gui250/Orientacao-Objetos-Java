@@ -6,6 +6,7 @@ public class Carro {
    private boolean ligado;
    private int aceleracao;
    private int idade;
+
    public Carro(String modelo, String marca, int ano, String cor) {
       this.modelo = modelo;
       this.marca = marca;

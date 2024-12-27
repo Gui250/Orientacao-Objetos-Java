@@ -12,5 +12,9 @@ public class Main {
         System.out.println(gol.getAceleracao());
         System.out.println(gol.getCor());
         System.out.println(gol.getIdade());
+
+       Aluno boby = new Aluno("Boby", "12345678900");
+       Professor joao = new Professor("João", "23451678910", 100000);
+       Pessoa maria = new Pessoa("Maria", "912345678910");
     }
 }
