@@ -18,9 +18,14 @@ public class Main {
        boby.calcularPontos(10);
        boby.calcularPontos(15);
        joao.calcularPontos(30);
-       System.out.println(boby.getPontos());
-       System.out.println(joao.getPontos());
-       System.out.println(boby.imprimirSaudacao());
-       System.out.println(joao.imprimirSaudacao());
+//       System.out.println(boby.getPontos());
+//       System.out.println(joao.getPontos());
+//       System.out.println(boby.imprimirSaudacao());
+//       System.out.println(joao.imprimirSaudacao());
+        // Calculadora calculadora = new Calculadora();
+        double soma = Calculadora.soma(2,2);
+        System.out.println(soma);
+        double subtracao = Calculadora.subtraca(1, 2);
+        System.out.println(subtracao);
     }
 }
